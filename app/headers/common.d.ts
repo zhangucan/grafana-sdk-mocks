@@ -23,6 +23,16 @@ declare module 'moment' {
   export default moment;
 }
 
+declare module 'ramda' {
+  var ramda: any;
+  export default ramda;
+}
+
+declare module 'rxjs' {
+  var rxjs: any;
+  export default rxjs;
+}
+
 declare module 'angular' {
   var angular: any;
   export default angular;
